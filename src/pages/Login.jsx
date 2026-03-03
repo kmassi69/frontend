@@ -28,11 +28,11 @@ export function Login() {
     <div className="flex min-h-screen bg-slate-950 text-slate-50">
       <div className="relative hidden flex-1 items-center justify-center bg-gradient-to-br from-[#050716] via-[#061520] to-[#1b332f] px-20 py-12 lg:flex">
         <div className="max-w-xl">
-          <div className="mb-8 flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-teal">
-              <span className="text-sm font-semibold text-slate-900">aps</span>
+          <div className="mb-10 flex items-center gap-2">
+            <div className="flex h-9 w-9 items-center justify-center rounded-full border border-teal-300/60 bg-teal-400/90 shadow-[0_0_0_4px_rgba(15,23,42,0.6)]">
+              <div className="h-2 w-2 rounded-full bg-slate-900" />
             </div>
-            <span className="text-lg font-semibold tracking-tight">aps</span>
+            <span className="text-[18px] font-semibold tracking-tight text-slate-50">aps</span>
           </div>
           <h1 className="max-w-xl text-5xl font-semibold leading-tight tracking-tight">
             Expert level <span className="text-brand-teal">Cybersecurity</span> in{' '}
