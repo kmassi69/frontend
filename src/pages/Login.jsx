@@ -26,23 +26,52 @@ export function Login() {
 
   return (
     <div className="flex min-h-screen bg-slate-950 text-slate-50">
-      <div className="relative hidden flex-1 items-center justify-center bg-gradient-to-br from-slate-950 via-emerald-900/40 to-slate-900 px-16 py-12 lg:flex">
-        <div className="max-w-md">
+      <div className="relative hidden flex-1 items-center justify-center bg-gradient-to-br from-[#050716] via-[#061520] to-[#1b332f] px-20 py-12 lg:flex">
+        <div className="max-w-xl">
           <div className="mb-8 flex items-center gap-2">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-teal">
               <span className="text-sm font-semibold text-slate-900">aps</span>
             </div>
             <span className="text-lg font-semibold tracking-tight">aps</span>
           </div>
-          <h1 className="text-4xl font-semibold leading-tight">
-            Expert level Cybersecurity in{' '}
+          <h1 className="max-w-xl text-5xl font-semibold leading-tight tracking-tight">
+            Expert level <span className="text-brand-teal">Cybersecurity</span> in{' '}
             <span className="text-brand-teal">hours</span> not weeks.
           </h1>
-          <ul className="mt-6 space-y-2 text-sm text-slate-200">
-            <li>• Effortlessly spider and map targets to uncover hidden security flaws.</li>
-            <li>• Deliver high-quality, validated findings in hours, not weeks.</li>
-            <li>• Generate professional, enterprise-grade security reports automatically.</li>
-          </ul>
+          <div className="mt-8 space-y-4 text-sm">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">
+              What&apos;s included
+            </p>
+            <ul className="space-y-2 text-sm text-slate-100">
+              <li className="flex items-start gap-2">
+                <span className="mt-1 h-4 w-4 rounded-full bg-brand-teal/10 text-center text-[11px] leading-4 text-brand-teal">
+                  ✓
+                </span>
+                <span>Effortlessly spider and map targets to uncover hidden security flaws.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-1 h-4 w-4 rounded-full bg-brand-teal/10 text-center text-[11px] leading-4 text-brand-teal">
+                  ✓
+                </span>
+                <span>Deliver high-quality, validated findings in hours, not weeks.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-1 h-4 w-4 rounded-full bg-brand-teal/10 text-center text-[11px] leading-4 text-brand-teal">
+                  ✓
+                </span>
+                <span>Generate professional, enterprise-grade security reports automatically.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-10 space-y-1 text-xs text-slate-300">
+            <div className="flex items-center gap-2">
+              <span className="text-emerald-400">★</span>
+              <span className="font-semibold">Trustpilot</span>
+            </div>
+            <p className="text-[11px] text-slate-400">
+              Rated 4.5/5.0 <span className="text-slate-500">(100+ reviews)</span>
+            </p>
+          </div>
         </div>
       </div>
       <div className="flex min-h-screen flex-1 items-center justify-center bg-surface-light px-6 py-10 text-slate-900 dark:bg-surface-dark">
